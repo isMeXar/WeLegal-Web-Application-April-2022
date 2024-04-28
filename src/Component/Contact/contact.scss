@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#contact {
+    background: linear-gradient(to left, #278cff, #323233) !important;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding: 5rem 6rem 8rem 6rem;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.contact_t {
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.contact_t:before,
+.contact_t:after {
+    background-color: rgb(255, 255, 255);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.contact_t:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.contact_t:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.contact_p {
+    color: #b8b8b8;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem auto .8rem auto;
+    max-width: 45rem;
+}
+
+.contact-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-contact {
+    position: relative;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.contact-us {
+    position: relative;
+    z-index: 900;
+    display: grid;
+    grid-template: 'lname lname fname fname city city' 'email email email email phone phone' 'message  message message message message message' 'send-btn send-btn send-btn send-btn send-btn send-btn';
+    justify-content: stretch;
+    align-items: center;
+    grid-gap: 2rem;
+    background-color: #fff;
+    padding: 3rem 4rem;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.ctn_label{
+    display: block;
+}
+
+.lname {
+    grid-area: lname;
+}
+
+.fname {
+    grid-area: fname;
+}
+
+.email {
+    grid-area: email;
+}
+
+.phone {
+    grid-area: phone;
+}
+
+.c {
+    grid-area: city;
+}
+
+.message {
+    grid-area: message;
+}
+
+.contact-us h3 {
+    margin-bottom: .7rem;
+    font-family: roboto;
+}
+
+#lname,
+#email,
+#fname,
+#phone,
+#city,
+textarea {
+    border-color: rgba(139, 139, 139, 0.514);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    color: #052b5e;
+    font-size: 1rem;
+    font-family: 'century gothic';
+    text-align: start;
+    outline: none;
+    width: 100%;
+    padding: 1rem 1.7rem;
+}
+
+#message {
+    padding-left: 0rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+textarea {
+    height: 10rem;
+    resize: none;
+    overflow: hidden;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.send-btn {
+    grid-area: send-btn;
+    justify-self: center
+}
+
+.ctn {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.icon_l {
+    color: #4fc6e1 !important;
+    font-size: 2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+#contact h5 {
+    color: white;
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+.ctn p {
+    color: #b4b4be;
+    font-size: 0.9rem;
+}
+
+#contact h3 {
+    color: #052b5e;
+    font-size: 16px;
+    position: relative;
+    top: 1.2rem;
+    left: 1rem;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 10px;
+}
+
+.send_i {
+    font-size: 2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    margin-left: 1.4rem;
+}
+
+.send-btn {
+    border-width: 0;
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    letter-spacing: 0.045em;
+}
+
+.send-btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.send-btn svg rect {
+    stroke: rgb(5, 19, 150);
+    stroke-width: 2;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+.send-btn span {
+    background: rgb(12, 11, 11);
+    background: -moz-linear-gradient(left, rgb(8, 61, 129) 0%, rgb(2, 1, 2) 100%);
+    background: -webkit-linear-gradient(left, rgb(8, 6, 114) 0%, rgb(8, 4, 8) 100%);
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(5, 19, 150) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff8282', endColorstr='#e178ed', GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.send-btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
+@media (max-width: 1200px) {
+    .contact-us {
+        grid-template-columns: auto;
+        justify-content: stretch;
+        align-items: stretch;
+        grid-gap: 2rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    .our-contact {
+        display: block;
+        margin-top: 1rem;
+    }
+    .ctn {
+        margin-bottom: 1.5rem;
+    }
+    .bg-shape-light {
+        height: 15rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact-us {
+        position: relative;
+        z-index: 900;
+        display: grid;
+        grid-template: 'lname lname lname fname fname fname' 'phone phone phone city city city' 'email email email email email email' 'message  message message message message message' 'send-btn send-btn send-btn send-btn send-btn send-btn';
+        justify-content: stretch;
+        align-items: center;
+        grid-gap: 2rem;
+        background-color: #fff;
+        padding: 3rem 4rem;
+        width: 100%;
+        border-radius: 7px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+    .bg-shape-light {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .contact-us {
+        grid-template: 'lname lname lname lname lname lname' 'fname fname fname fname fname fname' 'city city city city city city' 'phone phone phone phone phone phone' 'email email email email email email' 'message  message message message message message' 'send-btn send-btn send-btn send-btn send-btn send-btn';
+    }
+    #contact h3 {
+        font-size: 13px;
+    }
+    .send-btn {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 600px) {
+    #contact h3 {
+        font-size: 13px;
+    }
+    .send-btn {
+        transform: scale(0.7);
+    }
+    #contact {
+        padding: 5rem 3rem 7rem 3rem;
+    }
+    #lname,
+    #email,
+    #fname,
+    #phone,
+    #city,
+    textarea {
+        font-size: .9rem;
+        max-width: 100%;
+        padding: 1rem 1.7rem;
+    }
+    .contact-us {
+        grid-gap: 1rem 0rem;
+        padding: 3rem 2rem;
+        width: 100%;
+    }
+}

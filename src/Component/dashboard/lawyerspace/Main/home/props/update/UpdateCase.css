@@ -1,0 +1,103 @@
+.sales-box-upcase {
+  height: auto !important;
+}
+
+.recent_upcase {
+  padding-bottom: 4rem !important;
+}
+
+/*------------- table ----------*/
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #0b2d47;
+}
+
+th {
+  text-align: left;
+  color: #e2e2e2;
+  font-family: 'century gothic';
+}
+
+thead th {
+  background-color: #0b2d47;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+tbody td {
+  position: relative;
+}
+
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+
+.download_f {
+  background-color: #0b2d47;
+  border-style: none;
+  border-radius: 5px;
+  font-size: .9rem;
+  padding: .3rem .6rem;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.download_f:hover {
+  color: white;
+  background-color: #104268;
+}
+
+.l_case_n {
+  margin-top: 2.2rem;
+}
+
+.l_client {
+  margin-top: 2.7rem;
+}
+
+.l_title {
+  margin-top: 2.5rem;
+}
+
+.l_area {
+  margin-top: 2.4rem;
+}
+
+.l_descr {
+  margin-top: 2.1rem;
+}
+
+.l_docs {
+  margin-top: 8rem;
+}
+
+.l_status {
+  margin-top: 7.5rem;
+}
+
+.l_res {
+  margin-top: 2.2rem;
+}
+
+.upc_bt {
+  margin-top: 2rem !important;
+}
+/*# sourceMappingURL=UpdateCase.css.map */

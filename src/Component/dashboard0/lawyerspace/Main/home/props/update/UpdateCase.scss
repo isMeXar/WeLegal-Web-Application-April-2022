@@ -1,0 +1,79 @@
+.sales-box-upcase{
+    height: auto!important;
+}
+.recent_upcase{
+    padding-bottom: 4rem!important;
+}
+/*------------- table ----------*/
+table {
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: rgb(11, 45, 71);
+}
+
+th {
+	text-align: left;
+    color: rgb(226, 226, 226);
+    font-family: 'century gothic';
+}
+
+thead {
+	th {
+		background-color: rgb(11, 45, 71);
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}
+.download_f{
+    background-color: rgb(11, 45, 71);
+    border-style: none;
+    border-radius: 5px;
+    font-size: .9rem;
+    padding: .3rem .6rem;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    &:hover{
+        color: white;
+        background-color: rgb(16, 66, 104);
+    }
+}
+.l_case_n{margin-top: 2.2rem;}
+.l_client{margin-top: 2.7rem;}
+.l_title{margin-top: 2.5rem;}
+.l_area{margin-top: 2.4rem;}
+.l_descr{margin-top: 2.1rem;}
+.l_docs{margin-top: 8rem;}
+.l_status{margin-top: 7.5rem;}
+.l_res{margin-top: 2.2rem;}
+
+.upc_bt{
+    margin-top: 2rem!important;
+}

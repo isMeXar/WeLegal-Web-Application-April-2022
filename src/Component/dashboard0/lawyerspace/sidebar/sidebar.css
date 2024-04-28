@@ -1,0 +1,57 @@
+.page-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+.icon-rachid {
+  font-size: 1.2rem;
+}
+
+.app-sidebar {
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-sidebar-link {
+  color: var(--main-color);
+  color: var(--link-color);
+  margin: 16px 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 50%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-sidebar-link:hover {
+  background-color: var(--link-color-hover);
+  color: var(--link-color-active);
+}
+
+.app-sidebar-link.active {
+  background-color: var(--link-color-active-bg);
+  color: var(--link-color-active);
+}
+/*# sourceMappingURL=sidebar.css.map */

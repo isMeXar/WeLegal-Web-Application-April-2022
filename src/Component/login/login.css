@@ -1,0 +1,65 @@
+#error {
+    color: red;
+}
+
+.form__input::placeholder {
+    color: rgb(138, 138, 138)!important;
+}
+.check{
+    visibility: hidden;
+}
+.toggle_pass{
+    position: relative;
+    font-size: 1.7rem;
+    /* bottom: 2.5rem; */
+    right: 2.5rem;
+    cursor: pointer;
+}
+.mrg{
+    margin-left: 1.1rem;
+}
+.carde{
+    margin-left: 3rem;
+}
+.log_head{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.choose_role{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-gap: 1rem;
+    margin-right: 3rem;
+}
+.role_t{
+    font-size: 1.1rem ;
+    font-weight: 500;
+    padding: 0px 10px;
+    margin-bottom: .5rem;
+}
+.input_log{
+    width: 450px;
+}
+.forgot_pass{
+    background-color: transparent;
+    color: rgb(14, 102, 184);
+    margin-left: 3rem;
+    border-style: none;
+    font-size: .9rem;
+    /* text-decoration: underline; */
+}
+.forgot_pass:hover{
+    color: rgb(58, 134, 204);
+    text-decoration: underline;
+}
+.date_inp{
+    width: 180px;
+    color: gray;
+    padding-right: .5rem;
+}
+.space{
+    width: 150px;
+    color: red!important;
+}

@@ -1,0 +1,156 @@
+.addcase_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.add_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.add_flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+}
+#area_form, #title_inp, #describe_inp{
+    width: 450px;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgba(122, 122, 122, 0.418);
+}
+.field{
+    margin-bottom: 2rem;
+
+}
+.t{
+    font-size: 18px;
+    margin-top: .3rem;
+}
+.des{margin-top: 2.5rem;}
+.ar{margin-top: 10.5rem;}
+
+.fl_la{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.lawyer_rad{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.inp_name, .inp_field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.add_img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: .1rem;
+}
+.pic_fl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pic_fl p{
+    font-size: .9rem;
+}
+.rad{
+    visibility: hidden;
+}
+#optl-1:checked+label img,
+#optl-2:checked+label img,
+#optl-3:checked+label img{
+    border-radius: 5%;
+    border-color: #0d89d1c4;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.doc_fl{
+    margin-top: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+::-webkit-file-upload-button {
+    color: rgb(0, 0, 0);
+    padding: .3rem 2em;
+    border-style: solid;
+    border-width: 1px;
+    // border-style: none;
+    border-radius: 5%;
+    background-color: transparent;
+  }
+.add_doc_icon{
+    font-size: 1.7rem;
+    color: rgb(19, 57, 139);
+}
+.add_doc{
+    border-style: none;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(19, 57, 139);
+    padding: .2rem;
+
+}
+.doc_fl_r{
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add_case_btn{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    grid-gap: .5rem;
+    position: relative;
+    left: 9rem;
+}
+.add_btn{
+    padding: .4rem 1.5rem;
+    width: 130px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+.save_b{
+    background-color: rgb(35, 101, 245);
+    color: white;
+    border-color: white;
+}
+.reset_b{
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border-color: white;
+}
+.cancel_b{
+    border-color: black;
+}
+.save_b:hover{background-color: rgb(45, 109, 151);}
+.reset_b:hover{background-color: rgb(139, 139, 139);}
+.cancel_b:hover{border-color: rgb(92, 92, 92);color: rgb(92, 92, 92);}
+.addcase_box{
+    height: 160vh!important;
+    margin-bottom: 20rem;
+}

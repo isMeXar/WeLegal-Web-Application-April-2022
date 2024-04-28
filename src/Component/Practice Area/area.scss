@@ -1,0 +1,115 @@
+#Area{
+    position: relative;
+    background-color: white;
+}
+.AreaIntro{
+    background-image: url(./img/head_img.jpg);
+    height: 30rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    top: -14rem;
+    z-index: 100;
+}
+.area_title{
+    position: absolute;
+    bottom: 2.6rem;
+    font-size: 6rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: .7rem;
+}
+
+.area_title:before,
+.area_title:after {
+    content: '';
+    border-top: 2px solid rgb(247, 247, 247);
+    margin: 15px 0px 0 0;
+    flex: 1 0 20px;
+}
+#area_diff{
+    position: relative;
+    top: -16rem;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+.area_b{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 2px;
+    height: 3rem;
+    width: 22rem;
+    border-style: none;
+    cursor: pointer;
+}
+.area_b1{background-color: rgb(11, 181, 187);}
+.area_b2{background-color: rgb(13, 110, 139);}
+.area_b3{background-color: rgb(27, 58, 78);}
+
+.area_b1:hover{background-color: rgb(44, 225, 231);}
+.area_b2:hover{background-color: rgb(32, 165, 206);}
+.area_b3:hover{background-color: rgb(13, 85, 133);}
+
+.bio_1{
+    background-color: #fefaef;
+    position: relative;
+    top: -19rem;
+    padding: 8rem 6.5rem 6rem 6.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.bio_1 p{
+    width: 40rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.bio_2{
+    background-color: #ffffff;
+    position: relative;
+    top: -19rem;
+    padding: 8rem 6.5rem 0rem 6.5rem;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Martel&display=swap');
+.perso_bt{
+    font-size: 2.8rem;
+    color: rgb(43, 43, 43);
+    font-family: 'Martel', serif;
+    width: 70rem;
+    margin-bottom: 1rem;
+}
+.perso_sp{
+    font-size: 1.2rem;
+    font-family: 'century gothic';
+    font-weight: 400;
+    color: #363636;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+.perso_grid{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    grid-gap: 3rem;
+    text-align: left;
+    font-size: 1.2rem;
+}
+.left_bio{
+    max-width: 35rem;
+}
+.perso_grid span{
+    font-weight: 500;
+    color: rgb(1, 126, 228);
+    font-size: 1.3rem;
+}

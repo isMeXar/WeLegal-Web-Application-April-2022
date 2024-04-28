@@ -1,2 +1,2 @@
 
-WeLegal Web Application
+# WeLegal Web Application

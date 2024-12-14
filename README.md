@@ -63,29 +63,46 @@ Your application should now be running on http://localhost:8000.
 ## Screenshots
 Here are some key screenshots from the application:
 
-- Home Page: Here is a part of the Home page
-<src href="screenshot/home.png">
-You can find the full Home page in the Design Folder.
+- **Home Page:** Here is a part of the Home page.
+<br><img src="img/screenshot/home.png"><br>
+Here you will find the [full home page](img/Design/Full%20Home%20Page.jpg).
+<br>
+<br>
 
-- About Page: Here is a part of the About page
-<src href="screenshot/home.png">
-You can find the full About page in the Design Folder.
+- **About Page:** Here is a part of the About page.
+<br><img src="img/screenshot/about.png"><br>
+Here you will find the [full about page](img/Design/Full%20About%20Page.jpg).
+<br>
+<br>
 
-- Attorney Page: This a page showing information about our lawyers
-<src href="screenshot/home.png">
-You can find the full Attorney page in the Design Folder.
+- **Successfull Stories Page:**
+<br><img src="img/screenshot/stories.png"><br>
+<br>
+- **Attorney Page:** You select the attorney and you will be able to see details about them.
+Here you will find the [full attorney page](img/Design/Full%20Attorney%20Page.jpg).
+<br>
+<br>
 
-- Lawyer Dashboard: 
-  - Home:
-  - Clients list:
-  - Consulting page:
-  - Appointements:
+- **Lawyer Dashboard:**
+  - **Home:**
+  <br><img src="img/screenshot/lawyer home.png"><br>
+  - **Clients list:**
+  <br><img src="img/screenshot/lawyer clients list.png"><br>
+  - **Consulting page:**
+  <br><img src="img/screenshot/lawyer consulting.png"><br>
+  - **Appointements:**
+  <br><img src="img/screenshot/lawyer appointements.png"><br>
 
-- Client Dashboard:
-  - Home:
-  - Add a Case:
-  - Consulting page:
+- **Client Dashboard:**
+  - **Home:**
+  <br><img src="img/screenshot/client home.png"><br>
+  - **Add a Case:**
+  <br><img src="img/screenshot/client chat.png"><br>
+  - **Consulting page:**
+  <br><img src="img/screenshot/client appointement.png"><br>
 
+- Footer: <br>
+<img src="img/screenshot/footer.png"><br>
 ## Conclusion
 The WeLegal web application is a comprehensive solution designed to modernize and simplify law firm management. By providing an efficient platform for both clients and lawyers to manage cases, schedules, and communications, WeLegal helps to streamline legal practices and improve productivity. This project represents the culmination of our academic journey and showcases our ability to apply theoretical knowledge to solve real-world problems.
 
